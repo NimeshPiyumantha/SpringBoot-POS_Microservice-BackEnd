@@ -1,5 +1,10 @@
 package lk.ijse;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
 /**
  * @author : Nimesh Piyumantha
  * @PACKAGE_NAME : lk.ijse
@@ -8,5 +13,12 @@ package lk.ijse;
  * @Time : 3:30 PM
  * @since : 0.1.0
  **/
+@SpringBootApplication
+@EnableEurekaClient
+@RefreshScope
 public class ApiGatewayApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ApiGatewayApplication.class, args);
+    }
+
 }
