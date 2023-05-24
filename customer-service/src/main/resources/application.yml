@@ -17,7 +17,7 @@ spring:
 
 #this is for config server client
   config:
-    import: optional:config-server:http://localhost:8085/
+    import: optional:configserver:http://localhost:8085/
 
 server:
   port: 8087
