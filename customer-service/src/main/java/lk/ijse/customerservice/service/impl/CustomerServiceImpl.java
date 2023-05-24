@@ -1,6 +1,10 @@
 package lk.ijse.customerservice.service.impl;
 
+import lk.ijse.customerservice.dto.CustomDTO;
+import lk.ijse.customerservice.dto.CustomerDTO;
 import lk.ijse.customerservice.service.CustomerService;
+
+import java.util.ArrayList;
 
 /**
  * @author : Nimesh Piyumantha
@@ -11,4 +15,38 @@ import lk.ijse.customerservice.service.CustomerService;
  * @since : 0.1.0
  **/
 public class CustomerServiceImpl implements CustomerService {
+    @Override
+    public void saveCustomer(CustomerDTO dto) {
+
+    }
+
+    @Override
+    public void updateCustomer(CustomerDTO dto) {
+
+    }
+
+    @Override
+    public void deleteCustomer(CustomerDTO dto) {
+
+    }
+
+    @Override
+    public CustomerDTO searchCusId(String id) {
+        return null;
+    }
+
+    @Override
+    public ArrayList<CustomerDTO> loadAllCustomer() {
+        return null;
+    }
+
+    @Override
+    public CustomDTO customerIdGenerate() {
+        return null;
+    }
+
+    @Override
+    public CustomDTO getSumCustomer() {
+        return null;
+    }
 }
