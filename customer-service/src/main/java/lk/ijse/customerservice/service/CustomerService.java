@@ -1,5 +1,6 @@
 package lk.ijse.customerservice.service;
 
+import lk.ijse.customerservice.dto.CustomDTO;
 import lk.ijse.customerservice.dto.CustomerDTO;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
